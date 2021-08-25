@@ -12,6 +12,19 @@ class Newtask extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
+  styles = (theme) => ({
+    root: {
+      margin: 0,
+      padding: theme.spacing(2),
+    },
+    closeButton: {
+      position: 'absolute',
+      right: theme.spacing(1),
+      top: theme.spacing(1),
+      color: theme.palette.grey[500],
+    },
+  });
+
   handleChange(event) {
     console.log("Printing event from handleChange", event);
     this.setState({
@@ -26,12 +39,8 @@ class Newtask extends React.Component {
     event.preventDefault();
     this.props.actions.addTask(this.state.executionAddress, this.state.functionName, this.state.resolverAddress, this.state.resolverFunction);
     alert(`
-      ***** Your Task Got Saved ***** \n
-      Execution Address : ${executionAddress}
-      Function to be Automated : ${functionName}
-      Resolver address : ${resolverAddress}
-      Address : ${resolverFunction}
-    `)
+      ***** Your Task Got Saved, Please proceed to task history to check the status *****
+    `);
   }
 
   render() {
@@ -97,10 +106,6 @@ class Newtask extends React.Component {
     );
   }
 }
-
-// function matchDispatchToProps(dispatch){
-//   return bindActionCreators({addTask : addTask}, dispatch)
-// }
 
 const mapDispatchToProps = (dispatch) => ({ actions: bindActionCreators({ addTask: addTask }, dispatch) });
 
