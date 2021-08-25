@@ -17,16 +17,6 @@ class Taskhistory extends React.Component {
       rowData: [{ ExecutionAddress: this.props.executionAddress, FunctionName: this.props.functionName, ResolverAddress: this.props.resolverAddress, ResolverFunction: this.props.resolverFunction, TaskCreationTime: Date().toLocaleString()},
       { ExecutionAddress: "0x60779b57bd5f575b4013619033b0d44862b4a808ef9b5135cd75363df1754efd", FunctionName: "Counter.sol", ResolverAddress: "0x63C51b1D80B209Cf336Bec5a3E17D3523B088cdb", ResolverFunction: "CounterResolver.sol" , TaskCreationTime: "Wed Aug 18 2021 09:00:00"}]
     };
-
-    const rowData = [
-      { ExecutionAddress: this.props.executionAddress, FunctionName: this.props.functionName, ResolverAddress: this.props.resolverAddress, ResolverFunction: this.props.resolverFunction },
-      { ExecutionAddress: "0x60779b57bd5f575b4013619033b0d44862b4a808ef9b5135cd75363df1754efd", FunctionName: "Counter.sol", ResolverAddress: "0x63C51b1D80B209Cf336Bec5a3E17D3523B088cdb", ResolverFunction: "CounterResolver.sol" },
-      { ExecutionAddress: "0x60779b57bd5f575b4013619033b0d44862b4a808ef9b5135cd75363df1754efd", FunctionName: "Counter.sol", ResolverAddress: "0x63C51b1D80B209Cf336Bec5a3E17D3523B088cdb", ResolverFunction: "CounterResolver.sol" },
-      { ExecutionAddress: "0x60779b57bd5f575b4013619033b0d44862b4a808ef9b5135cd75363df1754efd", FunctionName: "Counter.sol", ResolverAddress: "0x63C51b1D80B209Cf336Bec5a3E17D3523B088cdb", ResolverFunction: "CounterResolver.sol" }
-      // {make: "Ford", model: "Mondeo", price: 32000},
-      // {make: "Porsche", model: "Boxter", price: 72000}
-    ];
-
   }
 
   render() {

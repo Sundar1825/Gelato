@@ -1,6 +1,3 @@
-import counterReducer from './tasks';
-import { combineReducers } from 'redux';
-
 export const initialState = {
     executionAddress: null,
     functionName: null,
