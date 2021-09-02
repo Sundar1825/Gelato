@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Sundar1825/Gelato/static/css/main.cb669b7f.chunk.css",
-    "main.js": "/Sundar1825/Gelato/static/js/main.8b688947.chunk.js",
-    "main.js.map": "/Sundar1825/Gelato/static/js/main.8b688947.chunk.js.map",
-    "runtime-main.js": "/Sundar1825/Gelato/static/js/runtime-main.2dab0cde.js",
-    "runtime-main.js.map": "/Sundar1825/Gelato/static/js/runtime-main.2dab0cde.js.map",
-    "static/css/2.31b7680a.chunk.css": "/Sundar1825/Gelato/static/css/2.31b7680a.chunk.css",
-    "static/js/2.70acccfb.chunk.js": "/Sundar1825/Gelato/static/js/2.70acccfb.chunk.js",
-    "static/js/2.70acccfb.chunk.js.map": "/Sundar1825/Gelato/static/js/2.70acccfb.chunk.js.map",
-    "index.html": "/Sundar1825/Gelato/index.html",
-    "precache-manifest.83dfb81e610f45c725297057a242320c.js": "/Sundar1825/Gelato/precache-manifest.83dfb81e610f45c725297057a242320c.js",
-    "service-worker.js": "/Sundar1825/Gelato/service-worker.js",
-    "static/css/2.31b7680a.chunk.css.map": "/Sundar1825/Gelato/static/css/2.31b7680a.chunk.css.map",
-    "static/css/main.cb669b7f.chunk.css.map": "/Sundar1825/Gelato/static/css/main.cb669b7f.chunk.css.map",
-    "static/js/2.70acccfb.chunk.js.LICENSE.txt": "/Sundar1825/Gelato/static/js/2.70acccfb.chunk.js.LICENSE.txt",
-    "static/media/Gelato.png": "/Sundar1825/Gelato/static/media/Gelato.52ed3dff.png"
+    "main.css": "/Gelato/static/css/main.cb669b7f.chunk.css",
+    "main.js": "/Gelato/static/js/main.f19995c8.chunk.js",
+    "main.js.map": "/Gelato/static/js/main.f19995c8.chunk.js.map",
+    "runtime-main.js": "/Gelato/static/js/runtime-main.34d9f8a2.js",
+    "runtime-main.js.map": "/Gelato/static/js/runtime-main.34d9f8a2.js.map",
+    "static/css/2.31b7680a.chunk.css": "/Gelato/static/css/2.31b7680a.chunk.css",
+    "static/js/2.c08cefb3.chunk.js": "/Gelato/static/js/2.c08cefb3.chunk.js",
+    "static/js/2.c08cefb3.chunk.js.map": "/Gelato/static/js/2.c08cefb3.chunk.js.map",
+    "index.html": "/Gelato/index.html",
+    "precache-manifest.fb554ef898cb953b1b790e23f050980e.js": "/Gelato/precache-manifest.fb554ef898cb953b1b790e23f050980e.js",
+    "service-worker.js": "/Gelato/service-worker.js",
+    "static/css/2.31b7680a.chunk.css.map": "/Gelato/static/css/2.31b7680a.chunk.css.map",
+    "static/css/main.cb669b7f.chunk.css.map": "/Gelato/static/css/main.cb669b7f.chunk.css.map",
+    "static/js/2.c08cefb3.chunk.js.LICENSE.txt": "/Gelato/static/js/2.c08cefb3.chunk.js.LICENSE.txt",
+    "static/media/Gelato.png": "/Gelato/static/media/Gelato.52ed3dff.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2dab0cde.js",
+    "static/js/runtime-main.34d9f8a2.js",
     "static/css/2.31b7680a.chunk.css",
-    "static/js/2.70acccfb.chunk.js",
+    "static/js/2.c08cefb3.chunk.js",
     "static/css/main.cb669b7f.chunk.css",
-    "static/js/main.8b688947.chunk.js"
+    "static/js/main.f19995c8.chunk.js"
   ]
 }
